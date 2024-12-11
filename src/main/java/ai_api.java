@@ -50,7 +50,7 @@ public class ai_api {
 
             // 如果401错误，输出提示信息
             if (responseCode == 401) {
-                System.out.println("Error: Unauthorized. Please check your API Key.");
+                System.out.println("Error:Please check your API Key.");
             }
 
             // 读取响应内容
